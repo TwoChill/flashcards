@@ -1,37 +1,40 @@
 # FlashCards
 
-These scripts are for those who want to recall information.
+Kleine terminal-scripts om informatie te oefenen en te onthouden. Ze draaien ook prima in een mobiele
+Python-interpreter, handig om onderweg even iets te trainen.
 
+Geen installatie van externe packages nodig — alleen Python 3.7 of nieuwer (alles draait op de
+standaardbibliotheek).
 
-The scripts are also good to use on a mobile interpeter.
+## Aan de slag
 
-This can be handy to train certain areas when you are out and about.
-
-
-
-## Getting Started
-
-* Run ```git clone https://github.com/MdeFrance/FlashCards.git```
-
-
-[Python Boolean Expression]
-
-*  Run ```(YOUR PATH)/Python_Boolean_Expression_Recaller.py ```
-
-[Python Class Drills]
-
-*  Run ```(YOUR PATCH)/Python_Class_Drills_Recaller.py```
-*  Run```(YOUR PATCH)/Python_Class_Drills_Recaller.py reverse```
- 
-[Multiplication Table Recaller]
- 
-* Run ```(YOUR PATH)/Multiplication_Table_Recallper.py```
-
-
-## How it works ##
-* You can choose which questions you want to recall.
 ```
-======================= 
+git clone https://github.com/TwoChill/flashcards.git
+cd flashcards
+```
+
+Start een van de recallers (vervang `PAD` door het pad naar de map waarin je kloonde):
+
+**Boolean Expression Recaller**
+```
+python PAD/Python_Boolean_Expression_Recaller/Python_Boolean_Expression_Recaller.py
+```
+
+**Class Drills Recaller**
+```
+python PAD/Python_Class_Drills_Recaller/Python_Class_Drills_Recaller.py
+python PAD/Python_Class_Drills_Recaller/Python_Class_Drills_Recaller.py reverse
+```
+
+**Multiplication Table Recaller**
+```
+python PAD/Multiplication_Table_Recaller/Multiplication_Table_Recaller.py
+```
+
+## Hoe het werkt
+* Je kiest welke vragen je wilt oefenen.
+```
+=======================
 Boolean Expression Quiz
 =======================
 
@@ -50,7 +53,7 @@ Boolean Expression Quiz
     10. Not Equal (!=) & Equal To (==)
 ```
 
-* Type in the answer to see if you got it right.
+* Typ je antwoord om te zien of het klopt.
 ```
 Question:	-->	False and True
 Evaluates to?:	-->	False
@@ -59,7 +62,7 @@ Evaluates to?:	-->	False
 				CORRECT!
 				========
 ```
-* Type ```quit``` or ``` result``` to exit and/or see you results.
+* Typ ```quit``` of ```result``` om te stoppen en/of je resultaten te zien.
 ```
 Question:	-->	True and False
 Evaluates to?:	-->	quit
@@ -73,12 +76,10 @@ Evaluates to?:	-->	quit
      |                                  |
      |       Your Grade:         5      |
       ==================================
-    
 ```
-# Multiplication Table Recaller
 
-
-* You can choose which multiplication table to recall.
+## Multiplication Table Recaller
+* Kies welke tafel je wilt oefenen.
 ```
 ==============================
 Type "quit" or "result to see your grade!
@@ -86,11 +87,11 @@ Type "quit" or "result to see your grade!
 
 Which multiplication table to recall? :> 10
 ```
-* Then choose your vector  (How high will you go up the table?)
+* Kies daarna je vector (hoe hoog ga je in de tafel?).
 ```
 Up to which vector? :> 200
 ```
-* Train your memory as much as you like
+* Oefen zoveel je wilt.
 ```
 Recalling the table of 10 with a vector of 200
 ==============================================
@@ -101,15 +102,8 @@ What is 10 * 61?
 
 That's correct!
 ===============
-
-
-What is 103 * 10?
-:> 1030
-
-That's correct!
-===============
 ```
-* Type "quit" or "result" to exit the script.
+* Typ "quit" of "result" om te stoppen.
 ```
 What is 103 * 10?
 :> quit
@@ -120,5 +114,4 @@ Your grade is a 10 / 10
 
 
 Thank you for trying!
-
 ```
