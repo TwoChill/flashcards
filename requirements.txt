@@ -1,0 +1,5 @@
+# FlashCards heeft geen externe dependencies.
+# Alle scripts gebruiken uitsluitend de Python-standaardbibliotheek
+# (random, time, sys, os, platform, pathlib, shutil).
+#
+# Vereist: Python 3.7 of nieuwer. Verder niets installeren.
